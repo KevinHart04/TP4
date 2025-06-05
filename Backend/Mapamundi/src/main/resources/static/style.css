@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background-color: rgb(6, 6, 6);
+    overflow: hidden;
+}
+
+#fondo-cuadrados {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(6, 6, 6);
+    overflow: hidden;
+}
+
+#fondo-cuadrados {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    /* Bajamos para que quede más atrás */
+}
+
+#globe-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* Encima de fondo-cuadrados pero detrás de todo */
+    pointer-events: none;
+    /* para que el mouse no interfiera */
+}
