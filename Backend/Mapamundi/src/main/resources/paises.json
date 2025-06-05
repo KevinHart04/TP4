@@ -1,0 +1,110 @@
+[
+  {
+    "nombre": "Argentina",
+    "capital": "Buenos Aires",
+    "superficie": 2780400,
+    "continente": "América",
+    "provincias": [
+      "Buenos Aires",
+      "Córdoba",
+      "Santa Fe"
+    ],
+    "limitrofes": [
+      "Brasil",
+      "Bolivia",
+      "Chile",
+      "Uruguay"
+    ]
+  },
+  {
+    "nombre": "Brasil",
+    "capital": "Brasilia",
+    "superficie": 8515767,
+    "continente": "América",
+    "provincias": [
+      "São Paulo",
+      "Rio de Janeiro"
+    ],
+    "limitrofes": [
+      "Argentina",
+      "Bolivia",
+      "Uruguay"
+    ]
+  },
+  {
+    "nombre": "Bolivia",
+    "capital": "Sucre",
+    "superficie": 1098581,
+    "continente": "América",
+    "provincias": [],
+    "limitrofes": [
+      "Argentina",
+      "Brasil",
+      "Chile"
+    ]
+  },
+  {
+    "nombre": "Chile",
+    "capital": "Santiago",
+    "superficie": 756102,
+    "continente": "América",
+    "provincias": [],
+    "limitrofes": [
+      "Argentina",
+      "Bolivia"
+    ]
+  },
+  {
+    "nombre": "Uruguay",
+    "capital": "Montevideo",
+    "superficie": 176215,
+    "continente": "América",
+    "provincias": [],
+    "limitrofes": [
+      "Argentina",
+      "Brasil"
+    ]
+  },
+  {
+    "nombre": "España",
+    "capital": "Madrid",
+    "superficie": 505990,
+    "continente": "Europa",
+    "provincias": [
+      "Madrid",
+      "Cataluña",
+      "Andalucía"
+    ],
+    "limitrofes": [
+      "Francia"
+    ]
+  },
+  {
+    "nombre": "Francia",
+    "capital": "París",
+    "superficie": 551695,
+    "continente": "Europa",
+    "provincias": [
+      "Île-de-France",
+      "Normandía"
+    ],
+    "limitrofes": [
+      "España",
+      "Italia"
+    ]
+  },
+  {
+    "nombre": "Italia",
+    "capital": "Roma",
+    "superficie": 301340,
+    "continente": "Europa",
+    "provincias": [
+      "Lazio",
+      "Lombardía",
+      "Toscana"
+    ],
+    "limitrofes": [
+      "Francia"
+    ]
+  }
+]

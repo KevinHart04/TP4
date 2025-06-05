@@ -1,5 +1,7 @@
 package com.TP4.Mapamundi.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -13,7 +15,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
-@Getter @Setter
+@Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
@@ -28,5 +31,6 @@ public class Provincia {
 
     @ManyToOne
     @JoinColumn(name = "pais_id")
+    @JsonBackReference // <--- evita ciclo con Pais.provincias
     private Pais pais;
 }
